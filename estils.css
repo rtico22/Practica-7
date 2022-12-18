@@ -1,0 +1,41 @@
+.div1{
+    background-color: lightskyblue;
+    height: 120px; /*alçada del div parent*/
+    width: 160px;/*amplada del div parent*/
+    margin-left: 20px; /*distància amb l'esquerra de la pàgina*/
+    margin-top: 40px;/*distància amb la part superior de la pàgina*/
+    border: 1px solid green;
+    z-index: 5; /*Canvi d'ordre de preferencia perque aparegui davant*/
+}
+.div2{
+    border: 1px solid green;
+    background-color: yellow;
+    position: relative;/*per posicionar la caixa interna en relació a la caixa que li fa de parent*/
+    left: 20px;/*posició relative dins el parent (per l'esuerra)*/
+    top:20px;/*posició relative dins el parent (per dalt)*/
+    width: 40px; /*amplada*/
+    height: 40px;       /*alçada*/
+}
+
+
+.div3{ 
+    border: 1px solid green;
+    
+    background-color: red;
+    height: 120px;
+    position: absolute;
+    left: 100px;
+    top: 140px;
+    width: 160px;
+    z-index: 1;
+}
+
+.div4{
+    border: 1px solid green;
+    background-color: greenyellow;
+    width: 40px;
+    height: 40px;    
+    position: relative;
+    left: 100px;
+    top:60px;
+}
